@@ -2,6 +2,8 @@
 title: "Locations"
 ---
 
+> Please check the [storage documentation](https://quadram-institute.atlassian.net/servicedesk/customer/portal/3/article/4424739?source=search) from QIB Core Bioinformatics (restricted area)
+
 ## Home directory
 
 When you log in the NBI HPC you will be in your home directory. This is a location only accessible to you
