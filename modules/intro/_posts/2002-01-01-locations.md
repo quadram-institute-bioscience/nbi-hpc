@@ -33,13 +33,14 @@ dedicated project directory specifying who should have access to it.
 ### Accessing your HPC locations from Windows
 
 From any Windows machine operated by NBI and connected to the NBI network (phisically or via VPN),
-you can type ``\\qib-hpc-data` to see your HPC folders, including your Home Directory, the Research-Groups and the Research-Projects locations:
+you can type `\\qib-hpc-data` to see your HPC folders, including your Home Directory, the Research-Groups and the Research-Projects locations:
 
 ![Windows Explorer]({{ site.baseurl }}/{% link img/win.png %})
 
 ### Accessing your HPC locations from Mac
 
-Similarily, from MacOS open the Finder, and then press Cmd+K (or "Go -> Connect to server..." from the menu bar), and type `smb://qib-hpc-data.nbi.ac.uk` as shown in the figure:
+Similarily, from MacOS open the Finder, and then press Cmd+K (or "Go -> Connect to server..." from the menu bar),
+and type `smb://qib-hpc-data.nbi.ac.uk` as shown in the figure:
 
 ![Windows Explorer]({{ site.baseurl }}/{% link img/finder.png %})
 
@@ -48,3 +49,7 @@ Similarily, from MacOS open the Finder, and then press Cmd+K (or "Go -> Connect 
 
 When doing analyses you might want a "scratch space": a directory that is not backed up but it's accessible from all the cluster nodes.
 You fill find yours in `/qib/scratch/users/$USER`.
+
+## Galaxy locations
+
+🌌...
