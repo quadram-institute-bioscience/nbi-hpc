@@ -68,5 +68,5 @@ Think of `interactive` as a quick way to "borrow" a compute node for hands-on wo
 
 ## Try yourself
 
-1) Launch an interactive sessionhostname
-2) Type `hostname` to check that you are indeed in a different computer
+1. Launch an interactive sessionhostname 
+2. Type `hostname` to check that you are indeed in a different computer
