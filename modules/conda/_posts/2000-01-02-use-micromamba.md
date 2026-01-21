@@ -18,22 +18,28 @@ Compute jobs should use environments that are already created.
 ```bash
 # Create a test environment (you MUST be in the software node!)
 micromamba create -n env1 samtools=1.18 minimap2 seqfu
-````
+```
 
-> Tip: if you need a specific channel, you can add `-c conda-forge -c bioconda`.
+💡 We enabled the `conda-forge` and `bioconda` channels via configuration
 
 ---
 
-## List and activate environments
+## Some basic commands
+
+To list all  the environments available in our installation:
 
 ```bash
 micromamba env list
 ```
 
+To activate one environment (by name):
+
 ```bash
 # Activate the base environment
 micromamba activate base
 ```
+
+Running a command from an environment:
 
 ```bash
 # Simply run a command without activating
