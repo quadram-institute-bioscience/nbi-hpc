@@ -11,7 +11,7 @@ I am a molecular biologist by training, and during my PhD I specialised in bioin
 
 After working for 4 years for a sequencing company in Italy, I moved to the UK joining the core bioinformatics team of the Quadram Institute.
 Here I did a lot of [bioinformatics training](https://www.telatin.com/bioinformatics/microbiome-bioinformatics/index.html),
-including this entry level overview of LLMs :smile:
+including this one.
  
 <figure style="padding: 6px; font-size: 0.8em; color: #606060; background: #F0F0F0; width: 260px;">
     <a href="https://quadram.ac.uk/people/andrea-telatin/">

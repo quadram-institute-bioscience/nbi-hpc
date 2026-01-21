@@ -1,13 +1,19 @@
 ---
-title: Configure your account
+title: Quick tips
 ---
 
-## Some tips
+## bashrc
+
+All these snippets can be added to your `~/.bashrc`.
+
+1) Enable core bioinformatics packages in the search from `module avail`:
 
 ```bash
 # Enable Core Bioinformatics modules
 module use /qib/research-projects/bioboxes/lua
 ```
+
+2) Configure some useful variables for Nextflow:
 
 ```bash
 # Nextflow settings
@@ -16,6 +22,9 @@ export NXF_OFFLINE='true'
 export NXF_SINGULARITY_CACHEDIR="/qib/platforms/Informatics/transfer/outgoing/singularity/nxf"
 ```
 
+
+3) Configure some handy locations:
+ 
 ```bash
 # Configure shortcuts for some QIB locations
 export SCRATCH=/qib/scratch/users/$USER/
