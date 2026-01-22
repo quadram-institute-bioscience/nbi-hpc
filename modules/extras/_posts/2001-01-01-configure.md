@@ -32,4 +32,7 @@ export PACKAGES=/nbi/software/testing/bin/
 export OUTGOING=/qib/platforms/Informatics/transfer/outgoing
 export INCOMING=/qib/platforms/Informatics/transfer/incoming
 export DATABASES=/qib/platforms/Informatics/transfer/outgoing/databases/
+
+# Configure a shortcut to your group!
+export GROUP=/qib/research-groups/CoreBioInfo
 ```
