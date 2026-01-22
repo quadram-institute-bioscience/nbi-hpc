@@ -10,6 +10,11 @@ This is a short hands-on introduction to use the
 This companion websites focuses on the topics that might be of general interest, but
 it's tailored for the use at the [Norwich Bioscience Institutes](https://www.nbi.ac.uk/).
 
+### Materials
+
+* 🧑‍🏫 [Slides]({{ site.baseurl }}/slides)
+* 🔧 [Slurm Script Maker]({{ site.baseurl }}/maker)
+
 ## Getting help
 
 > This areas are restricted to NBI staff, and will require authentication
