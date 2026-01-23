@@ -1,5 +1,5 @@
 ---
-title: Add Single Pages
+title: Installing
 ---
 
 ## Installing Micromamba
@@ -23,7 +23,7 @@ Then you can download the Micromamba installer, and execute it
 "${SHELL}" <(curl -L micro.mamba.pm/install.sh)
 ```
 
-## Using the channels from NBI
+## ⚠️ Using the channels from NBI
 
 Using `nano` or your favourite editor, change `~/.condarc` to look like:
 
@@ -35,3 +35,8 @@ channels:
 channel_priority: strict
 ```
 
+You will probably just need to add the first line (`channel_alias...`). This is important,
+as our network block connection to the default channels.
+
+If the "channels" list contains *defaults*, or *r*, please remove them as they are not needed and
+not available from our network.
